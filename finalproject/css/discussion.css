@@ -1,0 +1,103 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+body{ 
+    background-image:url('../images/neon-tech.jpg'); 
+    background-repeat:no-repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+    margin:auto;
+    background-color: white;
+    border-radius: 8px;
+    border:none;
+    max-width: 59%;
+    padding:1%;
+}
+h1, h2, h3 {
+    text-align:center; 
+    font-family: 'Walter Turncoat', cursive;
+    color:#28363D;
+}
+h1{font-size:24pt;}
+h2{font-size:20pt;}
+h3{font-size:18pt;}
+p { 
+    text-align:center; 
+    font-size:12pt; 
+    color:black;
+}
+ol {
+    text-align:left; 
+    font-size:12pt; 
+    color:black;
+}
+ul {
+    text-align:center;
+    font-size:15pt; 
+    color:black;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+a:link {
+    color:#00C8FF; 
+    text-decoration: underline; 
+}
+a:active {
+    color:rgb(2, 158, 201); 
+    text-decoration: underline; 
+}
+a:visited {
+    color:#871553; 
+    text-decoration: underline; 
+}
+a:hover {
+    color: white; 
+    background-color: #28363D; 
+    border:none;
+    text-decoration: none; 
+}
+table {
+    text-align:left; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:12pt; 
+    color:black; 
+    border:5px ridge #28363D;  
+    padding: 15px 15px 15px 15px;
+}
+td {
+    height:40px; 
+    font-size:12pt; 
+    color:black;
+}
+#big:first-letter {
+    font-size:42pt; 
+    float:left; 
+}
+hr {
+    width:50%;
+}
+button{
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 12pt;
+    margin:auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 8px;
+    background-color: rgb(2, 158, 201);
+    padding: 1%;
+}
+input[type=button]{
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 12pt;
+    margin:auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 8px;
+    background-color: rgb(2, 158, 201);
+    padding: 1%;   
+}

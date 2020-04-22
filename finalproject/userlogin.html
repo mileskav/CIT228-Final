@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Login Form</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+<section>
+<div class="center">
+<h1>Login Form</h1>
+<form method="post" action="userlogin.php">
+<p><label for="username">username:</label><br/>
+<input type="text" id="username" name="username" autofocus /></p>
+<p><label for="password">password:</label><br/>
+<input type="password" id="password" name="password" /></p>
+<button type="submit" name="submit" id="login" value="submit">Login</button>
+<input type="button" name="register" id="register" value="New user?" onclick="location.href='register.html'">
+<input type="button" name="delete" id="delete" value="Delete user" onclick="location.href='deleteuser.html'">
+</form>
+</div>
+</section>
+</body>
+</html>

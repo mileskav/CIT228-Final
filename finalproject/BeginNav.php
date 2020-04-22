@@ -1,0 +1,43 @@
+<?php
+echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gamedev Forum</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="css/discussion.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+		<header  class="container-fluid" style="width:61%;">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark" style="border-radius:8px;border:none;">
+			<a class="navbar-brand text-light" href="discussionMenu.html">Discussion Forum List</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+			<li>
+			<a class="nav-link" href="showtopic.php">Show topics and reply to postings</a>
+		  </li>
+		  <li>
+			<a class="nav-link" href="addtopic.php">Add Topic</a>
+		  </li>
+		  <li>
+			  <a class="nav-link" href="userlogin.html">Login</a>
+		  </li>
+		  <li>
+		  	  <a class="nav-link" href="createUserList.php">Create User XML</a>
+		  </li>
+		  <li>
+		  	  <a class="nav-link" href="viewUsers.php">View User XML</a>
+		  </li>
+	  </ul>
+	  </div>
+	  </nav>
+	</header>
+	<section class="container-fluid rows">'
+    ?>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Deletion</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+<section>
+<div class="center">
+<h1>Delete User</h1>
+<form action="do_deleteuser.php" method="POST" class="col-sm-6">
+    <p>Enter the username and password for the user you'd like to delete.<br/><br/>
+    <label for="username">Username</label><br/>
+    <input type="text" id="username" name="username" size="30" /><br/>
+    <label for="password">Password</label><br/>
+    <input type="password" id="password" name="password" size="30"/></p>
+    <button type="submit" name="submit" value="insert">Delete User</button>
+    <input type="button" name="login" id="login" value="Return to Login" onclick="location.href='userlogin.html'">
+    </form>
+</div>
+</section>
+</body>
+</html>

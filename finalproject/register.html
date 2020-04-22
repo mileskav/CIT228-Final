@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<section>
+<h1>Register</h1>
+<form method="post" action="do_adduser.php">
+
+<p><label for="f_name">First Name:</label><br/>
+<input type="text" id="f_name" name="f_name" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="l_name">Last Name:</label><br/>
+<input type="text" id="l_name" name="l_name" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="email">Email Address:</label><br/>
+<input type="email" id="email" name="email" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="username">Username:</label><br/>
+<input type="text" id="username" name="username" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="password">Password:</label><br/>
+<input type="password" id="password" name="password" size="40"
+        maxlength="150" required="required" /></p>
+
+<button type="submit" name="submit" value="submit">Register</button>
+<input type="button" name="login" id="login" value="Return to Login" onclick="location.href='userlogin.html'">
+</form></section>
+</body>
+</html>
