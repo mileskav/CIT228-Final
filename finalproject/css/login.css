@@ -17,34 +17,34 @@ h1{
     text-align:center; 
     font-family: 'Walter Turncoat', cursive;
     color:#28363D;
-    font-size:24pt;
+    font-size:2.3vw;;
 }
 h2{
     text-align:center; 
     font-family: 'Walter Turncoat', cursive;
     color:#28363D;
-    font-size:20pt;
+    font-size:2vw;;
 }
 h3{
     text-align:center; 
     font-family: 'Walter Turncoat', cursive;
     color:#28363D;
-    font-size:18pt;
+    font-size:1.6vw;;
 }
 p{ 
     text-align:center; 
-    font-size:12pt; 
+    font-size:1vw; 
     color:black;
     font-family: 'Source Sans Pro', sans-serif;
 }
 ol {
     text-align:left; 
-    font-size:12pt; 
+    font-size:1vw; 
     color:black;
 }
 ul {
     text-align:center;
-    font-size:15pt; 
+    font-size:1.2vw; 
     color:black;
     margin: 0;
     padding:0;
@@ -71,19 +71,15 @@ a:hover {
 table {
     text-align:left; 
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:12pt; 
+    font-size:1vw; 
     color:black; 
     border:5px ridge #28363D;  
     padding: 15px 15px 15px 15px;
 }
 td {
     height:40px; 
-    font-size:12pt; 
+    font-size:1cw; 
     color:black;
-}
-#big:first-letter {
-    font-size:42pt; 
-    float:left; 
 }
 hr {
     width:50%;
@@ -98,7 +94,7 @@ button{
     color: white;
     text-align: center;
     display: block;
-    font-size: 12pt;
+    font-size: 1vw;
     margin:auto;
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 8px;
@@ -110,7 +106,7 @@ input[type=button]{
     color: white;
     text-align: center;
     display: block;
-    font-size: 12pt;
+    font-size: 1vw;
     margin:auto;
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 8px;

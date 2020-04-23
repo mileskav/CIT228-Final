@@ -3,6 +3,7 @@
 body{ 
     background-image:url('../images/neon-tech.jpg'); 
     background-repeat:no-repeat;
+    background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
 }
 section{
@@ -18,22 +19,22 @@ h1, h2, h3 {
     font-family: 'Walter Turncoat', cursive;
     color:#28363D;
 }
-h1{font-size:24pt;}
-h2{font-size:20pt;}
-h3{font-size:18pt;}
+h1{font-size:2.3vw;}
+h2{font-size:2vw;}
+h3{font-size:1.6vw;}
 p { 
     text-align:center; 
-    font-size:12pt; 
+    font-size:1vw; 
     color:black;
 }
 ol {
     text-align:left; 
-    font-size:12pt; 
+    font-size:1vw; 
     color:black;
 }
 ul {
     text-align:center;
-    font-size:15pt; 
+    font-size:1.2vw; 
     color:black;
     margin: 0;
     padding:0;
@@ -60,19 +61,15 @@ a:hover {
 table {
     text-align:left; 
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:12pt; 
+    font-size:1vw; 
     color:black; 
     border:5px ridge #28363D;  
     padding: 15px 15px 15px 15px;
 }
 td {
     height:40px; 
-    font-size:12pt; 
+    font-size:1vw; 
     color:black;
-}
-#big:first-letter {
-    font-size:42pt; 
-    float:left; 
 }
 hr {
     width:50%;
@@ -82,7 +79,7 @@ button{
     color: white;
     text-align: center;
     display: block;
-    font-size: 12pt;
+    font-size: 1vw;
     margin:auto;
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 8px;
@@ -94,7 +91,7 @@ input[type=button]{
     color: white;
     text-align: center;
     display: block;
-    font-size: 12pt;
+    font-size: 1vw;
     margin:auto;
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 8px;
